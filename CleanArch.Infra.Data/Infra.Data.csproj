@@ -1,0 +1,128 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20210506200500_removeIdAutoincrement.cs" />
+    <Compile Remove="Migrations\20210506200500_removeIdAutoincrement.Designer.cs" />
+    <Compile Remove="Migrations\20210510132822_addClientReportId.cs" />
+    <Compile Remove="Migrations\20210510132822_addClientReportId.Designer.cs" />
+    <Compile Remove="Migrations\20210809195052_AddRescheduleModels.cs" />
+    <Compile Remove="Migrations\20210809195052_AddRescheduleModels.Designer.cs" />
+    <Compile Remove="Migrations\20210809195718_AddRescheduleModels.cs" />
+    <Compile Remove="Migrations\20210809195718_AddRescheduleModels.Designer.cs" />
+    <Compile Remove="Migrations\20210809201739_AddRescheduleModels1.cs" />
+    <Compile Remove="Migrations\20210809201739_AddRescheduleModels1.Designer.cs" />
+    <Compile Remove="Migrations\20210726144232_create model status.cs" />
+    <Compile Remove="Migrations\20210726144232_create model status.Designer.cs" />
+    <Compile Remove="Migrations\20210825154440_fix data1.cs" />
+    <Compile Remove="Migrations\20210825154440_fix data1.Designer.cs" />
+    <Compile Remove="Migrations\20210825154729_fix data1.cs" />
+    <Compile Remove="Migrations\20210825154729_fix data1.Designer.cs" />
+    <Compile Remove="Migrations\20210826133048_Testing publication to go into production.cs" />
+    <Compile Remove="Migrations\20210826133048_Testing publication to go into production.Designer.cs" />
+    <Compile Remove="Migrations\20210826160221_add-models.cs" />
+    <Compile Remove="Migrations\20210826160221_add-models.Designer.cs" />
+    <Compile Remove="Migrations\20210901134919_CreateTableClaroUser.cs" />
+    <Compile Remove="Migrations\20210901134919_CreateTableClaroUser.Designer.cs" />
+    <Compile Remove="Migrations\20210915041034_updateDataBase.cs" />
+    <Compile Remove="Migrations\20210915041034_updateDataBase.Designer.cs" />
+    <Compile Remove="Migrations\20210916020208_AddFieldsTableManagementsBackOffice.cs" />
+    <Compile Remove="Migrations\20210916020208_AddFieldsTableManagementsBackOffice.Designer.cs" />
+    <Compile Remove="Migrations\20210916024044_AddFieldsTableManagementsBackOffice.cs" />
+    <Compile Remove="Migrations\20210916024044_AddFieldsTableManagementsBackOffice.Designer.cs" />
+    <Compile Remove="Migrations\20210921191759_updateModelStatus.cs" />
+    <Compile Remove="Migrations\20210921191759_updateModelStatus.Designer.cs" />
+    <Compile Remove="Migrations\20210921192231_updateModelBackOff.cs" />
+    <Compile Remove="Migrations\20210921192231_updateModelBackOff.Designer.cs" />
+    <Compile Remove="Migrations\20210923184751_addTableHistoryBackOfficeManagements.cs" />
+    <Compile Remove="Migrations\20210923184751_addTableHistoryBackOfficeManagements.Designer.cs" />
+    <Compile Remove="Migrations\20211112215056_AddTemporalTempBulkTable.cs" />
+    <Compile Remove="Migrations\20211112215056_AddTemporalTempBulkTable.Designer.cs" />
+    <Compile Remove="Migrations\20211122220736_OvertimeData.cs" />
+    <Compile Remove="Migrations\20211122220736_OvertimeData.Designer.cs" />
+    <Compile Remove="Migrations\20220105044327_chageOvertimeTimeType.cs" />
+    <Compile Remove="Migrations\20220105044327_chageOvertimeTimeType.Designer.cs" />
+    <Compile Remove="Migrations\20220503191919_Agregando campo TypeHour en OvertimeType.cs" />
+    <Compile Remove="Migrations\20220503191919_Agregando campo TypeHour en OvertimeType.Designer.cs" />
+    <Compile Remove="Migrations\20220504164508_Otros Cambios.cs" />
+    <Compile Remove="Migrations\20220504164508_Otros Cambios.Designer.cs" />
+    <Compile Remove="Migrations\20220504210955_Añadir relaciones FK_.cs" />
+    <Compile Remove="Migrations\20220504210955_Añadir relaciones FK_.Designer.cs" />
+    <Compile Remove="Migrations\20220603161059_Creando modelo Modulo Procesos Administrativos.cs" />
+    <Compile Remove="Migrations\20220603161059_Creando modelo Modulo Procesos Administrativos.Designer.cs" />
+    <Compile Remove="Migrations\20220606192732_Cambiando llaves foraneas en modelos ok.cs" />
+    <Compile Remove="Migrations\20220606192732_Cambiando llaves foraneas en modelos ok.Designer.cs" />
+    <Compile Remove="Migrations\20220606194007_organizando llaves foraneas en modelos ok.cs" />
+    <Compile Remove="Migrations\20220606194007_organizando llaves foraneas en modelos ok.Designer.cs" />
+    <Compile Remove="Migrations\20220606194151_organizando llaves foraneas en modelos ok.cs" />
+    <Compile Remove="Migrations\20220606194151_organizando llaves foraneas en modelos ok.Designer.cs" />
+    <Compile Remove="Migrations\20220606194535_organizando Modelo .cs" />
+    <Compile Remove="Migrations\20220606194535_organizando Modelo .Designer.cs" />
+    <Compile Remove="Migrations\20220606195114_organizando Modelo .cs" />
+    <Compile Remove="Migrations\20220606195114_organizando Modelo .Designer.cs" />
+    <Compile Remove="Migrations\20220606202114_Organizando Modelo.cs" />
+    <Compile Remove="Migrations\20220606202114_Organizando Modelo.Designer.cs" />
+    <Compile Remove="Migrations\20220610202034_Agregando campo en DisciplinaryProcess.cs" />
+    <Compile Remove="Migrations\20220610202034_Agregando campo en DisciplinaryProcess.Designer.cs" />
+    <Compile Remove="Migrations\20220614133948_Agregando fechas de la sancion.cs" />
+    <Compile Remove="Migrations\20220614133948_Agregando fechas de la sancion.Designer.cs" />
+    <Compile Remove="Migrations\20220617142853_Agregando campos a la tabla disciplinaryProcess.cs" />
+    <Compile Remove="Migrations\20220617142853_Agregando campos a la tabla disciplinaryProcess.Designer.cs" />
+    <Compile Remove="Migrations\20220721213113_AddModelsProjectFeedBack.cs" />
+    <Compile Remove="Migrations\20220721213113_AddModelsProjectFeedBack.Designer.cs" />
+    <Compile Remove="Migrations\20220721214628_AddModelsProjectFeedBack.cs" />
+    <Compile Remove="Migrations\20220721214628_AddModelsProjectFeedBack.Designer.cs" />
+    <Compile Remove="Migrations\20220721214929_AddModelsProjectFeedBack.cs" />
+    <Compile Remove="Migrations\20220721214929_AddModelsProjectFeedBack.Designer.cs" />
+    <Compile Remove="Migrations\20220721215350_AddModelsProjectFeedBack.cs" />
+    <Compile Remove="Migrations\20220721215350_AddModelsProjectFeedBack.Designer.cs" />
+    <Compile Remove="Migrations\20220721215532_AddModelsProjectFeedBack.cs" />
+    <Compile Remove="Migrations\20220721215532_AddModelsProjectFeedBack.Designer.cs" />
+    <Compile Remove="Migrations\20220721215809_AddModelsProjectFeedBack.cs" />
+    <Compile Remove="Migrations\20220721215809_AddModelsProjectFeedBack.Designer.cs" />
+    <Compile Remove="Migrations\20220721220236_AddModelsProjectFeedBack.cs" />
+    <Compile Remove="Migrations\20220721220236_AddModelsProjectFeedBack.Designer.cs" />
+    <Compile Remove="Migrations\20220721220757_AddModelsProjectFeedBack.cs" />
+    <Compile Remove="Migrations\20220721220757_AddModelsProjectFeedBack.Designer.cs" />
+    <Compile Remove="Migrations\20220721221220_AddModelsProjectFeedBack.cs" />
+    <Compile Remove="Migrations\20220721221220_AddModelsProjectFeedBack.Designer.cs" />
+    <Compile Remove="Migrations\20220809153813_GenerateToModelTB_ASISTENCIA_MARCADORES.cs" />
+    <Compile Remove="Migrations\20220809153813_GenerateToModelTB_ASISTENCIA_MARCADORES.Designer.cs" />
+    <Compile Remove="Migrations\20220811135323_AddTableConfigurtionNovelties.cs" />
+    <Compile Remove="Migrations\20220811135323_AddTableConfigurtionNovelties.Designer.cs" />
+    <Compile Remove="Migrations\20220812200410_AddTAbleToEntries.cs" />
+    <Compile Remove="Migrations\20220812200410_AddTAbleToEntries.Designer.cs" />
+    <Compile Remove="Migrations\20220812200503_AddTAbleToEntriesWithFKs.cs" />
+    <Compile Remove="Migrations\20220812200503_AddTAbleToEntriesWithFKs.Designer.cs" />
+    <Compile Remove="Migrations\20220812200651_AddTAbleToEntriesWithFKs.cs" />
+    <Compile Remove="Migrations\20220812200651_AddTAbleToEntriesWithFKs.Designer.cs" />
+    <Compile Remove="Migrations\20220812200932_AddTAbleToEntriesWithFKThatAsistenciaMarcadores.cs" />
+    <Compile Remove="Migrations\20220812200932_AddTAbleToEntriesWithFKThatAsistenciaMarcadores.Designer.cs" />
+    <Compile Remove="Migrations\20220818220119_removeFKdegeinoTableNoveltyEntry.cs" />
+    <Compile Remove="Migrations\20220818220119_removeFKdegeinoTableNoveltyEntry.Designer.cs" />
+    <Compile Remove="Migrations\20220901222910_are eliminate the colum MadeByUser from table NoveltyHistory.cs" />
+    <Compile Remove="Migrations\20220901222910_are eliminate the colum MadeByUser from table NoveltyHistory.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.14" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.14">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.14" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.14">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CleanArch.Application\Application.csproj" />
+    <ProjectReference Include="..\CleanArch.Domain\Domain.csproj" />
+  </ItemGroup>
+
+</Project>
